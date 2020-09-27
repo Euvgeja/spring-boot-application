@@ -1,11 +1,9 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-    <title>Getting Started: Serving Web Content</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-</head>
-<body>
-<div>Hello, user </div>
-<a href="/main">Main page</a>
-</body>
-</html>
+<#import "parts/common.ftlh" as c>
+<#import "parts/login.ftlh" as l>
+<@c.page>
+
+    <h5>Hi, guest! </h5>
+    <div> This is my Ki project</div>
+
+</@c.page>
+
